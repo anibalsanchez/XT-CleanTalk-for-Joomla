@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>XT CleanTalk for Joomla Package</name>
+		<description>Cloud spam protection for forums, boards, blogs and sites for Joomla. An implementation of the CleanTalk SDK for PHP and Joomla.</description>
+		<element>lib_xtsentry</element>
+		<type>library</type>
+		<version>1.0.0</version>
+		<client>site</client>
+		<infourl title="XT CleanTalk for Joomla Package">https://github.com/anibalsanchez/XT-CleanTalk-for-Joomla/releases/tag/1.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/anibalsanchez/XT-CleanTalk-for-Joomla/releases/download/1.0.0/XT-CleanTalk-for-Joomla_v1.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[6789]" />
+	</update>
+</updates>

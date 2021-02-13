@@ -1,0 +1,46 @@
+{
+  "name": "anibalsanchez/xt-cleantalk-for-joomla",
+  "type": "project",
+  "description": "XT CleanTalk for Joomla Library.",
+  "keywords": [
+    "cleantalk",
+    "joomla",
+    "log",
+    "logging",
+    "error-monitoring",
+    "error-handler",
+    "crash-reporting",
+    "crash-reports"
+  ],
+  "homepage": "https://www.extly.com",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Extly",
+      "email": "team@extly.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "cleantalk/php-antispam": "^2.4"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.2.0"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "vendor-dir": "library/vendor"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+      "php-prefixer": {
+          "project-name": "XT CleanTalk for Joomla Library",
+          "namespaces-prefix": "Extly",
+          "global-scope-prefix": "XT_"
+      }
+  }
+}

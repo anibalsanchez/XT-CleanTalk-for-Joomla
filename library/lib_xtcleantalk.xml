@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension method="upgrade" type="library" version="1.0">
+  <name>XT CleanTalk for Joomla - Library</name>
+  <libraryname>xtcleantalk</libraryname>
+  <version>1.0.0</version>
+  <creationDate>2021-02-13</creationDate>
+
+	<author>Extly, CB</author>
+	<authorEmail>team@extly.com</authorEmail>
+	<authorUrl>https://www.extly.com</authorUrl>
+	<copyright>Copyright (c)2012-2021 Extly, CB All rights reserved.</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+
+  <description>
+    <![CDATA[
+Cloud spam protection for forums, boards, blogs and sites for Joomla. An implementation of the CleanTalk SDK for PHP and Joomla.
+  ]]>
+  </description>
+  <!-- <media destination="lib_xtcleantalk" folder="media">
+		<folder>app</folder>
+	</media> -->
+  <files>
+    <folder>vendor</folder>
+    <filename>lib_xtcleantalk.xml</filename>
+  </files>
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" name="XT CleanTalk for Joomla Update Site">https://raw.githubusercontent.com/anibalsanchez/XT-CleanTalk-for-Joomla/master/manifest.xml</server>
+	</updateservers>
+</extension>
