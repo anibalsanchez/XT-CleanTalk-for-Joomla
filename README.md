@@ -2,7 +2,7 @@
 
 Cloud spam protection for forums, boards, blogs and sites for Joomla. An implementation of the CleanTalk SDK for PHP and Joomla.
 
-This library only install the CleanTalk SDK as a Joomla Library. The objetive is install the library for development and integration with custom extensions. The library avoids the installation of new system plugins or scripts on the site. It is just a library.
+This library only installs the CleanTalk SDK as a Joomla Library. The objective is to install the library for development and integration with custom extensions. The library avoids the installation of new system plugins or scripts on the site. It is just a library.
 
 If you are looking for a fully functional plugin, you can download and install the **Antispam by CleanTalk** plugin: https://extensions.joomla.org/extension/antispam-by-cleantalk/
 
